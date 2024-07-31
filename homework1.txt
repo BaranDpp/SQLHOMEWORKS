@@ -1,0 +1,14 @@
+--Soru1
+SELECT title,description FROM film
+--soru2
+SELECT * FROM film f
+WHERE f.length>=60 and f.length<=75
+--soru3
+SELECT * FROM film f
+WHERE f.rental_rate=0.99 and f.replacement_cost=12.99 OR f.replacement_cost=28.99
+--soru4
+SELECT c.first_name,c.last_name FROM customer c
+WHERE c.first_name='Mary'
+--soru5
+SELECT * FROM film f
+WHERE f.length<=50 and f.rental_rate != 2.99 and f.rental_rate != 4.99
