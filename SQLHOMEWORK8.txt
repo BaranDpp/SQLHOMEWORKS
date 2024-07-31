@@ -1,0 +1,70 @@
+--Soru1
+CREATE TABLE employee (
+	id SERIAL PRIMARY KEY,
+	first_name VARCHAR(50),
+	last_name VARCHAR(50),
+	birtday DATE,
+	email VARCHAR(100)
+	
+);
+--Soru2
+insert into author (first_name, last_name, birtday, email) values ('Cyrillus', 'Gamell', '2024/07/05', 'cgamell0@scribd.com');
+insert into author (first_name, last_name, birtday, email) values ('Mina', 'Colvin', '2024/07/24', 'mcolvin1@opensource.org');
+insert into author (first_name, last_name, birtday, email) values ('Hamnet', 'Chaperling', '2024/07/03', 'hchaperling2@people.com.cn');
+insert into author (first_name, last_name, birtday, email) values ('Bartlett', 'Farrans', '2023/09/30', 'bfarrans3@linkedin.com');
+insert into author (first_name, last_name, birtday, email) values ('Kathryne', 'Mounter', '2024/06/03', 'kmounter4@ed.gov');
+insert into author (first_name, last_name, birtday, email) values ('Kania', 'Domney', '2024/02/01', null);
+insert into author (first_name, last_name, birtday, email) values ('Lin', 'Rowter', '2024/02/23', 'lrowter6@opera.com');
+insert into author (first_name, last_name, birtday, email) values ('Craggy', 'Montacute', '2024/02/09', 'cmontacute7@cloudflare.com');
+insert into author (first_name, last_name, birtday, email) values ('Dixie', 'Jaqueminet', '2023/08/10', null);
+insert into author (first_name, last_name, birtday, email) values ('Gibbie', 'Crocken', null, 'gcrocken9@abc.net.au');
+insert into author (first_name, last_name, birtday, email) values ('Abeu', 'Polhill', '2024/06/07', null);
+insert into author (first_name, last_name, birtday, email) values ('Scotti', 'Snar', '2023/10/07', 'ssnarb@sciencedirect.com');
+insert into author (first_name, last_name, birtday, email) values ('Jorgan', 'Vanichkin', '2023/10/06', 'jvanichkinc@nifty.com');
+insert into author (first_name, last_name, birtday, email) values ('Margaretha', 'Scini', null, 'mscinid@prlog.org');
+insert into author (first_name, last_name, birtday, email) values ('Gwen', 'Kloser', '2023/12/23', 'gklosere@businessweek.com');
+insert into author (first_name, last_name, birtday, email) values ('Constanta', 'Dadd', null, 'cdaddf@sbwire.com');
+insert into author (first_name, last_name, birtday, email) values ('Camilla', 'Fairfoul', null, 'cfairfoulg@hostgator.com');
+insert into author (first_name, last_name, birtday, email) values ('Shepperd', 'Bertson', '2024/02/25', 'sbertsonh@fda.gov');
+insert into author (first_name, last_name, birtday, email) values ('Elyn', 'Heaselgrave', '2024/07/11', 'eheaselgravei@over-blog.com');
+insert into author (first_name, last_name, birtday, email) values ('Sari', 'Bartolomeo', '2024/02/20', null);
+insert into author (first_name, last_name, birtday, email) values ('Milka', 'Treppas', '2024/06/21', 'mtreppask@psu.edu');
+insert into author (first_name, last_name, birtday, email) values ('Natala', 'Avrahamof', '2024/06/01', 'navrahamofl@nyu.edu');
+insert into author (first_name, last_name, birtday, email) values ('Lorrie', 'Haylock', '2024/03/19', null);
+insert into author (first_name, last_name, birtday, email) values ('Nollie', 'Gallant', null, 'ngallantn@merriam-webster.com');
+insert into author (first_name, last_name, birtday, email) values ('Neil', 'Baike', '2024/03/27', 'nbaikeo@ihg.com');
+insert into author (first_name, last_name, birtday, email) values ('Lavinie', 'Fidock', '2024/05/07', 'lfidockp@privacy.gov.au');
+insert into author (first_name, last_name, birtday, email) values ('Jarret', 'Myers', '2023/12/15', 'jmyersq@imageshack.us');
+insert into author (first_name, last_name, birtday, email) values ('Suzann', 'Schrei', '2023/11/30', 'sschreir@cloudflare.com');
+insert into author (first_name, last_name, birtday, email) values ('Symon', 'Schneidau', '2023/12/22', 'sschneidaus@arizona.edu');
+insert into author (first_name, last_name, birtday, email) values ('Delcine', 'Durston', '2024/01/14', 'ddurstont@hc360.com');
+insert into author (first_name, last_name, birtday, email) values ('Angie', 'Howgate', '2023/11/05', 'ahowgateu@themeforest.net');
+insert into author (first_name, last_name, birtday, email) values ('Shanie', 'Frankema', '2023/09/12', 'sfrankemav@drupal.org');
+insert into author (first_name, last_name, birtday, email) values ('Octavia', 'De Michetti', '2023/11/12', 'odemichettiw@themeforest.net');
+insert into author (first_name, last_name, birtday, email) values ('Bernie', 'Gallaway', '2024/02/27', 'bgallawayx@intel.com');
+insert into author (first_name, last_name, birtday, email) values ('Ingaborg', 'Barrowcliff', '2024/02/07', 'ibarrowcliffy@google.it');
+insert into author (first_name, last_name, birtday, email) values ('Shea', 'Burgwin', '2023/08/15', 'sburgwinz@e-recht24.de');
+insert into author (first_name, last_name, birtday, email) values ('Viv', 'Bridle', '2023/12/17', 'vbridle10@storify.com');
+insert into author (first_name, last_name, birtday, email) values ('Jo', 'Bende', '2024/05/18', 'jbende11@usda.gov');
+insert into author (first_name, last_name, birtday, email) values ('Melessa', 'Hallut', '2023/12/11', 'mhallut12@dagondesign.com');
+insert into author (first_name, last_name, birtday, email) values ('Melisse', 'Kunes', '2024/01/12', 'mkunes13@dailymotion.com');
+insert into author (first_name, last_name, birtday, email) values ('Rafa', 'Deplacido', null, 'rdeplacido14@cargocollective.com');
+insert into author (first_name, last_name, birtday, email) values ('Rosa', 'Galer', '2023/11/20', 'rgaler15@symantec.com');
+insert into author (first_name, last_name, birtday, email) values ('Prentice', 'Gawith', '2024/01/20', 'pgawith16@bravesites.com');
+insert into author (first_name, last_name, birtday, email) values ('Phillie', 'Dohmer', '2023/12/14', 'pdohmer17@abc.net.au');
+insert into author (first_name, last_name, birtday, email) values ('Kiley', 'Folbige', null, 'kfolbige18@meetup.com');
+insert into author (first_name, last_name, birtday, email) values ('Edvard', 'Tanswill', null, null);
+insert into author (first_name, last_name, birtday, email) values ('Dacia', 'Sidwick', '2024/03/05', 'dsidwick1a@sourceforge.net');
+insert into author (first_name, last_name, birtday, email) values ('Drucy', 'Rewbottom', '2024/01/15', null);
+insert into author (first_name, last_name, birtday, email) values ('Elizabet', 'Lancley', '2024/05/16', 'elancley1c@moonfruit.com');
+insert into author (first_name, last_name, birtday, email) values ('Katerine', 'Lanston', '2024/02/01', null);
+--Soru3
+UPDATE employee
+SET first_name = 'XXX',
+	last_name = 'YYY',
+	birtday ='2000-04-24',
+	email = 'xxx@yyy.com'
+WHERE id BETWEEN 1 AND 6;
+--Soru4
+DELETE FROM employee
+WHERE id BETWEEN 7 AND 12;
