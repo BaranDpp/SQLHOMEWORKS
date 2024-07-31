@@ -1,0 +1,15 @@
+--Soru1
+SELECT f.rating FROM film f
+GROUP BY f.rating
+--Soru2
+SELECT f.replacement_cost,COUNT(*) FROM film f
+GROUP BY f.replacement_cost
+HAVING COUNT(*)>50
+--Soru3
+SELECT c.store_id, COUNT(*) FROM customer c
+GROUP BY c.store_id
+--Soru4
+SELECT country_id, COUNT(*) FROM city
+GROUP BY country_id
+ORDER BY COUNT(*) DESC
+LIMIT 1
