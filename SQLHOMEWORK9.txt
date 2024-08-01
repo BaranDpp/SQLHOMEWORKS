@@ -1,0 +1,9 @@
+--Soru1
+SELECT * FROM city c
+INNER JOIN country co ON co.country_id= c.country_id
+--Soru2
+SELECT c.first_name,c.last_name,p.payment_id FROM customer c
+INNER JOIN payment p ON c.customer_id=p.customer_id
+--Soru3
+SELECT c.first_name,c.last_name,r.rental_id FROM customer c
+INNER JOIN rental r ON c.customer_id=r.customer_id
