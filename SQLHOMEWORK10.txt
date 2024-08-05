@@ -1,0 +1,9 @@
+Soru1
+SELECT city,country FROM City
+LEFT JOIN Country ON City.country_id = Country.country_id
+Soru2
+SELECT payment_id,first_name,last_name FROM payment p
+RIGHT JOIN customer c ON c.customer_id = p.customer_id
+Soru3
+SELECT rental_id,first_name,last_name FROM rental r
+FULL JOIN customer c ON c.customer_id = r.customer_id
